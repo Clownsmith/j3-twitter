@@ -13,5 +13,17 @@
         <filename>tmpl/index.html</filename>
     </files>
     <config>
+		<fields name="params">
+			<fieldset name="options" label="Options">
+				<field name="username" type="text" label="Twitter Username" description="Your Twitter Username. (e.g. Smith0r)" />
+				<field name="tweet_num" type="text" label="Number of Tweets" description="How many tweets to display?" default="5" />
+			</fieldset>
+			<fieldset name="oauth" label="OAuth Options">
+				<field name="token" type="text" label="OAuth Token" description="Your OAuth Token" />
+				<field name="token_secret" type="text" label="OAuth Secret Token" description="Your Secret OAuth Token" />
+				<field name="key" type="text" label="Consumer Key" description="Your Consumer Key" />
+				<field name="key_secret" type="text" label="Consumer Secret Key" description="Your Secret Consumer Key" />
+			</fieldset>
+		</fields>
     </config>
 </extension>
