@@ -1,0 +1,17 @@
+.tweet {
+	background: #FFF;
+	border: 2px solid #DDD;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.tweet:last-of-type {
+	margin-bottom: 0px;
+}
+.tweet-date {
+	text-align: right;
+	font-style: italic;
+	font-weight: bold;
+}
