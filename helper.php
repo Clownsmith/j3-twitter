@@ -10,7 +10,7 @@ class modJ3TwitterHelper
 	//======================================================================
 	// # Fetch tweets
 	//======================================================================
-	public static function fetchTweets($limit = 5, $oauth = "")
+	public static function fetchTweets($limit = 5, $oauth = "", $oauth_secret = "", $key = "", $key_secret="")
 	{
 		return $tweets;
 	}

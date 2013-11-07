@@ -5,8 +5,15 @@
 // # Twitter Module for Joomla 3.2.x
 //============================================================================
 
+// No direct access
 defined( '_JEXEC' ) or die( 'Restricted access' );
 
-echo "Twitter Module";
-
 ?>
+
+<div class="j3-twitter">
+	<?php
+	
+		$tweets = $helper->fetchTweets();
+	
+	?>
+</div>

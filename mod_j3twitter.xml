@@ -9,6 +9,7 @@
         <filename module="mod_j3twitter">mod_j3twitter.php</filename>
         <filename>index.html</filename>
         <filename>helper.php</filename>
+		<filename>TwitterAPIExchange.php</filename>
         <filename>tmpl/default.php</filename>
         <filename>tmpl/index.html</filename>
     </files>

@@ -10,6 +10,7 @@ defined('_JEXEC') or die('Restricted access');
 
 // Require the helper
 require_once(dirname(__FILE__).'/helper.php');
+$helper = new modJ3TwitterHelper;
 
 // Require the Twitter API Exchange
 require_once(dirname(__FILE__).'/TwitterAPIExchange.php');
