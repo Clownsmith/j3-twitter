@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.2.0" client="site" method="upgrade">
+    <name>J3 Twitter</name>
+    <author>Chris Smith</author>
+    <version>1.0.0</version>
+    <description>Twitter module for Joomla 3.2.x</description>
+    <files>
+        <filename>mod_j3twitter.xml</filename>
+        <filename module="mod_j3twitter">mod_j3twitter.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+    </config>
+</extension>
