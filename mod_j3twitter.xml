@@ -10,7 +10,7 @@
         <filename>index.html</filename>
         <filename>helper.php</filename>
         <filename>tmpl/default.php</filename>
-        <filename>tmpl/index.html</filename>		<filename>libs/TwitterAPIExchange.php</filename>		<filename>libs/index.html</filename>
+        <filename>tmpl/index.html</filename>		<filename>libs/TwitterAPIExchange.php</filename>		<filename>libs/index.html</filename>		<folder>assets</folder>
     </files>
     <config>
 		<fields name="params">
