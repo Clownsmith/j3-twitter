@@ -10,13 +10,13 @@
         <filename>index.html</filename>
         <filename>helper.php</filename>
         <filename>tmpl/default.php</filename>
-        <filename>tmpl/index.html</filename>		<filename>tmpl/TwitterAPIExchange.php</filename>		<filename>tmpl/index.html</filename>
+        <filename>tmpl/index.html</filename>		<filename>libs/TwitterAPIExchange.php</filename>		<filename>tmpl/index.html</filename>
     </files>
     <config>
 		<fields name="params">
 			<fieldset name="options" label="Options">
 				<field name="username" type="text" label="Twitter Username" description="Your Twitter Username. (e.g. Smith0r)" />
-				<field name="tweet_num" type="text" label="Number of Tweets" description="How many tweets to display?" default="5" />
+				<field name="tweet_num" type="text" label="Number of Tweets" description="How many tweets to display?" default="5" />				<field name="allow_cache" type="list" default="0" label="Allow caching of tweets?" description="">                    <option value="0">Yes</option>                    <option value="1">No</option>                </field>
 			</fieldset>
 			<fieldset name="oauth" label="OAuth Options">
 				<field name="token" type="text" label="OAuth Token" description="Your OAuth Token" />
