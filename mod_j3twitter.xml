@@ -2,7 +2,7 @@
 <extension type="module" version="3.2.0" client="site" method="upgrade">
     <name>J3 Twitter</name>
     <author>Chris Smith</author>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description>Twitter module for Joomla 3.2.x</description>
     <files>
         <filename>mod_j3twitter.xml</filename>
