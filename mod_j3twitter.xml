@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <extension type="module" version="3.2.0" client="site" method="upgrade">
     <name>J3 Twitter</name>
     <author>Chris Smith</author>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <description>Twitter module for Joomla 3.2.x</description>
     <files>
         <filename>mod_j3twitter.xml</filename>
@@ -10,13 +11,20 @@
         <filename>index.html</filename>
         <filename>helper.php</filename>
         <filename>tmpl/default.php</filename>
-        <filename>tmpl/index.html</filename>		<filename>libs/TwitterAPIExchange.php</filename>		<filename>libs/index.html</filename>		<folder>assets</folder>
+        <filename>tmpl/index.html</filename>
+		<filename>libs/TwitterAPIExchange.php</filename>
+		<filename>libs/index.html</filename>
+		<folder>assets</folder>
     </files>
     <config>
 		<fields name="params">
 			<fieldset name="options" label="Options">
 				<field name="username" type="text" label="Twitter Username" description="Your Twitter Username. (e.g. Smith0r)" />
-				<field name="tweet_num" type="text" label="Number of Tweets" description="How many tweets to display?" default="5" />				<field name="allow_cache" type="list" default="0" label="Allow caching of tweets?" description="">                    <option value="0">Yes</option>                    <option value="1">No</option>                </field>
+				<field name="tweet_num" type="text" label="Number of Tweets" description="How many tweets to display?" default="5" />
+				<field name="allow_cache" type="list" default="0" label="Allow caching of tweets?" description="">
+                    <option value="0">Yes</option>
+                    <option value="1">No</option>
+                </field>
 			</fieldset>
 			<fieldset name="oauth" label="OAuth Options">
 				<field name="token" type="text" label="OAuth Token" description="Your OAuth Token" />
